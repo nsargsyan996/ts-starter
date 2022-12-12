@@ -1,0 +1,13 @@
+.idea/
+.husky/
+.jest/
+.github/
+
+*.ignore*
+
+node_modules/
+
+build/
+
+coverage/
+storybook-static/

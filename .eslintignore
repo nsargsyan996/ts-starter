@@ -1,0 +1,14 @@
+.idea/
+.husky/
+
+.github/
+
+*.ignore*
+
+node_modules/
+
+build/
+
+coverage/
+
+storybook-static

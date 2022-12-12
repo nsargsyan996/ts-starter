@@ -1,0 +1,17 @@
+#IDE
+.idea
+
+#Builds
+build
+
+#Extenal libs
+node_modules
+
+#Logs
+yarn-error.log
+
+#Test coverage
+coverage
+
+#Storybook
+storybook-static

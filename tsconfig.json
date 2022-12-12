@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "outDir": "build",
+        "baseUrl": "src",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "declaration": false,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "importsNotUsedAsValues": "preserve",
+        "jsx": "react",
+        "lib": ["dom", "es2018"],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noUncheckedIndexedAccess": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "esnext",
+        "types": ["jest", "@testing-library/jest-dom"],
+        "typeRoots": ["node_modules/@types", ".src/common/@types"],
+        "paths": {
+            "app-design": ["./src/app-design"],
+            "common": ["./src/common"]
+        }
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules", "build"]
+}
